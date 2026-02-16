@@ -1,0 +1,31 @@
+{
+  "name": "moshi-poc",
+  "version": "0.1.0",
+  "description": "POC for Kyutai Moshi real-time voice model integration with Maven AGI",
+  "private": true,
+  "scripts": {
+    "test:connect": "ts-node src/test-connection.ts",
+    "test:stream": "ts-node src/test-streaming.ts",
+    "test:interrupt": "ts-node src/test-interrupts.ts",
+    "setup": "./scripts/setup-moshi.sh"
+  },
+  "keywords": [
+    "moshi",
+    "voice",
+    "real-time",
+    "full-duplex",
+    "kyutai"
+  ],
+  "author": "Maven AGI",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ws": "^8.16.0",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/ws": "^8.5.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

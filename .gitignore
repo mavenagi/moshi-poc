@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Moshi
+moshi/
+models/
+
+# Test artifacts
+test-audio/*.wav
+test-audio/*.mp3
+test-audio/*.m4a
+test-audio/*.ogg
+test-audio/*.flac
+!test-audio/.gitkeep
+
+# Recordings
+recordings/
