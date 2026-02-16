@@ -1,5 +1,9 @@
 # Moshi POC - Real-Time Conversational Voice AI
 
+> ⏸️ **Status: On Hold**  
+> After research, Moshi is not suitable for Maven AGI voice-server due to missing critical features (tool calling, speaker separation) and high infrastructure requirements (GPU, complex setup).  
+> See [FINDINGS.md](./FINDINGS.md) for detailed analysis and recommendations.
+
 Proof-of-concept for integrating [Kyutai's Moshi](https://github.com/kyutai-labs/moshi) real-time voice model with Maven AGI voice platform.
 
 ## What is Moshi?
@@ -163,6 +167,6 @@ npm run test:interrupt
 
 ---
 
-**Status**: 🚧 In Progress
+**Status**: ⏸️ On Hold (See [FINDINGS.md](./FINDINGS.md) for research results)
 **Created**: 2026-02-16
 **Owner**: dongshengbc
